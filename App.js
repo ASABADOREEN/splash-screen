@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image} from 'react-native';
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
         style ={styles.firstLogo}
         source={require('./assets/large_Money_Tap_9772cc1fbf.png')}/>
       <Text>Modefu Loan App</Text>
-      <StatusBar style="auto" />
+      {/* <StatusBar style="auto" /> */}
     </View>
   );
 }
@@ -19,8 +19,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'orange',
     alignItems: 'center',
     justifyContent: 'center',
-    // paddingTop:90,
-    // paddingBottom:50
   },
   firstLogo:{
     resizeMode: 'stretch',
@@ -28,6 +26,6 @@ const styles = StyleSheet.create({
     height:130,
     marginLeft:56,
     marginBottom:25,
-    padding:90
+    padding:100,
   }
 });
