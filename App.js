@@ -8,6 +8,7 @@ export default function App() {
         style ={styles.firstLogo}
         source={require('./assets/large_Money_Tap_9772cc1fbf.png')}/>
       <Text>Modefu Loan App</Text>
+      <Text style={{marginTop:100}}>V1.0.0</Text>
       {/* <StatusBar style="auto" /> */}
     </View>
   );
@@ -28,4 +29,5 @@ const styles = StyleSheet.create({
     marginBottom:25,
     padding:100,
   }
+
 });
